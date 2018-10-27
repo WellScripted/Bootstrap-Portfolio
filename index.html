@@ -2,84 +2,122 @@
 <html lang="en-us">
 
 <head>
-    <!--Page Optimization-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatable" content="ie=edge">
+  <!--Page Optimization-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <meta http-equiv="X-UA-Compatable" content="ie=edge">
 
-    <!--Portfolio Title-->
-    <title>William Higareda</title>
+  <!--Portfolio Title-->
+  <title>William Higareda</title>
 
-    <!-- Bootcamp CSS Stylesheet-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+  <!-- Bootcamp CSS Stylesheet & stylesheet-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <!--link type="text/css" rel="stylesheet" href="assets/css/reset.css">-->
+  <!--<link type="text/css" rel="stylesheet" href="assets/css/override.css">-->
 </head>
 
 <body>
-    <!--Header Content-->
-    <div id="content">
-        <header>
-            <section class="container-fluid">
-                <div class="row">
-                    <div class="col-md-1 col-sm-auto"></div>
-                    <div class="col-md-4 col-sm-12" id="NAME">
-                        William Higareda
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <!--Navigation Buttons-->
-                            <div class="navBtn" id="aboutBtn">
-                                <a href="index.html"> About | </a>
-                            </div>
-                            <div class="navBtn" id="portfolioBtn">
-                                <a href="portfolio.html"> Portfolio | </a>
-                            </div>
-                            <div class="navBtn" id="contactBtn">
-                                <a href="contact.html"> Contact </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </header>
-        <div class="container" id="Content">
-            <div class="col-md-8 col-xs-12">
-                <section id="mainBody">
-                    <h1>About Me</h1>
-                    <img class="img-fluid" id="myPhoto" src="assets/images/profile-pic.jpg" alt="profile-pic">
-                    <p>My name is Will Higareda and I'm a Full Stack Web Developer. I specialize in building custom web sites based on your needs. I bring an attentive focus to each and every project with flowing creativity designed to make your content appear among the best and brightest on the web! </p>
-                    <br />   
-                    <p>Skilled in HTML, CSS, and JavaScript</p>
-                    <br /> 
-                    <p>Fun facts about me; I like 80s movies and music, I like bungee jumping, I enjoy Airsoft, and I really like working the midnight shift.</p> 
-                </section>
-            </div>
-            <section id="socialMedia">
-                <h2>Let's Connect!</h2>
-                <hr />
-                <span>
-                    <a href="https://github.com/WellScripted">
-                        <img src="assets/images/GitHub-Mark-64px.png" class="logo" alt="GitHub">
-                    </a>
-    
-                    <a href="https://www.linkedin.com/in/william-higareda-3751a252/">
-                        <img src="assets/images/In-2C-66px-TM.png" class="logo" alt="LinkedIn">
-                    </a>
-    
-                    <a href="https://stackexchange.com/users/14299410/wellscripted">
-                        <img src="assets/images/so-icon.png" class="logo" alt="Stack Overflow">
-                    </a>
-                </span>
-            </section>
-            
-        </div>
-        <div class="push"></div>
-    </div>
-    <footer>
-        &copy;2018 Big Willie Style   <!--Possibly create p id-->
-    </footer>
+  <!--navbar class & containter-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
 
+      <div class="navbar-header">
+        <!--buttons-->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="true" aria-controls="navbar">
+
+          <span class="sr-only">Toggle Navbar</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!--Content & Menu-->
+        <a class="navbar-brand" href="#">William Higareda</a>
+      </div>
+
+      <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+        <ul class="nav navbar-nav">
+
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+  </nav>
+<!--Container & Column One-->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="row">
+
+        <div class="col-sm-6 col-md-4">
+          <!--Profile Pic Thumbnail-->
+          <img src="assets/images/profile-pic.jpg" alt="William Higareda" class="img-thumbnail">
+
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="caption">
+            <p>My name is Will Higareda and I'm a Full Stack Web Developer. I specialize in building custom web sites based on your needs. I bring an attentive focus to each and every project with flowing creativity designed to make your content appear among the best and brightest on the web! </p>
+            <br />   
+            <p>Skilled in HTML, CSS, and JavaScript</p>
+            <br /> 
+            <p>Fun facts about me; I like 80s movies and music, I like bungee jumping, I enjoy Airsoft, and I really like working the midnight shift.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--2nd Column with Social Media links-->
+  <div class="col-md-4">
+
+    <br/>
+    <br/>
+    <div class="panel panel-default">
+      <div class="panel heading">
+          <h3 class="panel-title">Let's Connect!</h3>
+      </div>
+      <div class="panel-body">
+
+        <a href="https://github.com/WellScripted">
+          <img src="assets/images/GitHub-Mark-64px.png" class="icon" alt="github" width="75">
+        </a>
+
+        <a href="https://www.linkedin.com/in/william-higareda-3751a252/">
+          <img src="assets/images/In-2C-66px-TM.png" class="icon" alt="linkedin" width="75">
+        </a>
+
+        <a href="https://stackexchange.com/users/14299410/wellscripted">
+          <img src="assets/images/so-icon.png" class="icon" alt="stackexchange" width="75">
+        </a>
+        
+      </div>
+    </div>
+
+
+  </div>
+
+  <!--Footer and Copyright-->
+  <div class="row">
+ <footer class="footer">
+  <nav class="navbar navbar-default navbar-fixed-bottom navbar-light bg-faded">
+
+  <div class="text-center"><br/>&copy;Big Willie Style 2018</div>
+
+  </nav> 
+ </footer>   
+
+</div>
 </body>
 </html>
