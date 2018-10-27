@@ -1,16 +1,38 @@
-header .container-fluid {
-    width: 960px;
-    margin: 0 auto;
-    top: 0;
+a.navbar-brand {
+    font-size: 20pt;
+    background-color: #4aaaa5;
+    color:#ffffff;
+
 }
 
-.col-md-8, .page-header {
-    background-image: url(../images/concrete-texture.png);
-    /*height: 60vh;*/
-    width: 100%;
-    display: flex;
-    border: #dddddd;
+nav.navbar.navbar-default.navbar-fixed-top {
     background-color: #ffffff;
-    min-height: calc(100vh - 107px);
-    margin: 0 auto;
+}
+
+ul.navbar.navbar-nav {
+    text-align: right;
+}
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/*div.text-center, footer {
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    line-height: 70px;
+    border-style: solid;
+    border-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black
+}*/
+
+body {
+    background-image: url(../images/concrete-texture.png);
 }
